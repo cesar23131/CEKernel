@@ -1,0 +1,24 @@
+docker build buildenv -t cekernel-buildenv
+
+
+
+stappen:
+
+
+docker run --rm -it -v "${pwd}:/root/env" cekernel-buildenv
+
+make
+
+exit
+
+make
+
+
+
+
+(installeer:  QEMU
+
+MAKE : http://gnuwin32.sourceforge.net/install.html
+VOEG TO AAN PATH EN HERSTART
+
+)
